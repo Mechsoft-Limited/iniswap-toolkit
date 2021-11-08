@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.1.0 (2021-11-08)
+
+
+### Bug Fixes
+
+* XWG Decimals ([#285](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/285)) ([e0abf9e](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/e0abf9edff43698c00d83b807b12a867440d0ad4))
+* **token-lists:** Top100 sanitization ([#251](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/251)) ([67d89c6](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/67d89c63e0630cb20354c35847d76b2b36af2d8e))
+* Add missing logos ([#144](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/144)) ([7bad2fa](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/7bad2faa6ab163e2883a0231961cffa6dbd9455d))
+* Decimals on Hai ([#163](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/163)) ([46bb8e9](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/46bb8e9eab419cea641d46e635e217442e026486))
+* Move netlify toml file to token-lists ([#127](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/127)) ([ce6f2cd](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/ce6f2cd41faf44af16322e4a37d93af6750dd592))
+* Tau coins ([#129](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/129)) ([29e5c38](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/29e5c383f6460474510662bf8cfebe0b15ffc003))
+
+
+### Features
+
+* **token-lists:** Automated Top100 token list generation ([#134](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/134)) ([c7e69a5](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/c7e69a56c22911c6822632ecb267b4e0ecab8d14))
+* **token-lists:** ORBS & FORM ([#173](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/173)) ([465ff3b](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/465ff3bcf025dc53e06366ef841b643b2dc84341))
+* **token-lists:** Tests for checksummed address ([#250](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/250)) ([2197ed5](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/2197ed52c572f15001cc09c6bccb553ae614c049))
+* **token-lists:** Top100 token list default URI ([#249](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/249)) ([a671f70](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/a671f70f5a021e28c9a8bbcbaf15341effc26c54))
+* Add ATA to extended token list ([#143](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/143)) ([5360873](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/5360873fa08d75ba34251f401a37dae28a7fc4c8))
+* Add token logos ([#125](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/125)) ([e402156](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/e402156f2c304b1b6f26324ddb91ba7d277f1821))
+* Token List ([#95](https://github.com/Mechsoft-Limited/iniswap-toolkit/issues/95)) ([f18ab1d](https://github.com/Mechsoft-Limited/iniswap-toolkit/commit/f18ab1dc1eaecd447ae449ee1437c58f02db6abf))
+
+
+
+
+
 ## [2.18.5](https://github.com/pancakeswap/pancake-toolkit/compare/@pancakeswap/token-lists@2.18.4...@pancakeswap/token-lists@2.18.5) (2021-09-20)
 
 **Note:** Version bump only for package @pancakeswap/token-lists

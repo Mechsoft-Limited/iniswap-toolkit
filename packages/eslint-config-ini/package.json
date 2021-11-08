@@ -1,6 +1,6 @@
 {
   "name": "@iniswap/eslint-config-ini",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
