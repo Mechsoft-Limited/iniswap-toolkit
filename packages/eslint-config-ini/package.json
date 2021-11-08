@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/eslint-config-pancake",
-  "version": "1.2.0",
+  "name": "@iniswap/eslint-config-ini",
+  "version": "0.0.1",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
+  "repository": "https://github.com/Mechsoft-Limited/iniswap-toolkit/tree/master/packages/eslint-config-ini",
   "license": "MIT",
-  "author": "RabbitDoge",
+  "author": "ebundala",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",

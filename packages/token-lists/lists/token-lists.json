@@ -1,16 +1,16 @@
 {
   "https://tokens.pancakeswap.finance/pancakeswap-default.json": {
-    "name": "PancakeSwap Default",
-    "homepage": "https://pancakeswap.finance"
+    "name": "IniSwap Default",
+    "homepage": "https://iniswap.finance"
   },
   "https://tokens.pancakeswap.finance/pancakeswap-extended.json": {
-    "name": "PancakeSwap Extended",
-    "homepage": "https://pancakeswap.finance"
+    "name": "IniSwap Extended",
+    "homepage": "https://iniswap.finance"
     
   },
   "https://tokens.pancakeswap.finance/pancakeswap-top-100.json": {
-    "name": "PancakeSwap Top 100",
-    "homepage": "https://pancakeswap.finance"
+    "name": "IniSwap Top 100",
+    "homepage": "https://iniswap.finance"
     
   },
   "https://tokens.coingecko.com/binance-smart-chain/all.json": {
