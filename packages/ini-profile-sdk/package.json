@@ -1,6 +1,6 @@
 {
-  "name": "@pancakeswap/profile-sdk",
-  "version": "0.3.0",
+  "name": "@iniswap/profile-sdk",
+  "version": "0.0.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -41,4 +41,6 @@
     "@types/js-cookie": "^2.2.6",
     "js-cookie": "^2.2.1"
   }
+  ,
+  "private": true
 }
