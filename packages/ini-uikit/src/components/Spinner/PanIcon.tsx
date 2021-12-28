@@ -1,9 +1,10 @@
 import React from "react";
 import Svg from "../Svg/Svg";
 import { SvgProps } from "../Svg/types";
-
+import Logo from "../Svg/Icons/Logo";
 const Icon: React.FC<SvgProps> = (props) => {
-  return (
+  return <Logo {...props} />;
+  /* return (
     <Svg viewBox="0 0 256 256" {...props}>
       <path
         fillRule="evenodd"
@@ -62,7 +63,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         fill="#606063"
       />
     </Svg>
-  );
+  );*/
 };
 
 export default Icon;

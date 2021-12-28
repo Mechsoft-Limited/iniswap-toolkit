@@ -1,24 +1,24 @@
 import { Colors } from "./types";
-
+import { colors, gradients } from "../theme.json";
 export const baseColors = {
-  failure: "#be1200", // "#ED4B9E",
-  primary: "#0161C6", // "#1FC7D4",
-  primaryBright: "#5b8efa", // "#53DEE9",
-  primaryDark: "#003895", // "#0098A1",
-  secondary: "#FBB03B", // "#7645D9",
-  success: "#28c52b", // "#31D0AA",
+  failure: "#ED4B9E",
+  primary: "#1FC7D4",
+  primaryBright: "#53DEE9",
+  primaryDark: "#0098A1",
+  secondary: "#7645D9",
+  success: "#31D0AA",
   warning: "#FFB237",
 };
 
 export const additionalColors = {
   binance: "#F0B90B",
-  overlay: "#2980B9", // "#452a7a",
+  overlay: "#452a7a",
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
 };
 
-export const lightColors: Colors = {
+export const lightColors1: Colors = {
   ...baseColors,
   ...additionalColors,
   background: "#FAF9FA",
@@ -33,9 +33,9 @@ export const lightColors: Colors = {
   input: "#eeeaf4",
   inputSecondary: "#d7caec",
   tertiary: "#EFF4F5",
-  text: "#005489", // "#280D5F",
+  text: "#280D5F",
   textDisabled: "#BDC2C4",
-  textSubtle: "#66afec", // "#7A6EAA",
+  textSubtle: "#7A6EAA",
   disabled: "#E9EAEB",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
@@ -48,11 +48,51 @@ export const lightColors: Colors = {
   },
 };
 
+export const lightColors: Colors = {
+  ...colors,
+  ...additionalColors,
+  gradients: {
+    ...gradients,
+  },
+};
+
+// export const darkColors: Colors = {
+//   ...baseColors,
+//   ...additionalColors,
+//   secondary: "#001d93", // "#9A6AFF",
+//   background: "#ffffff",
+//   backgroundDisabled: "#c3c8bd",
+//   backgroundAlt: "#d8d9d3",
+//   backgroundAlt2: "#d8d9d3",
+//   cardBorder: "#c7cdbe",
+//   contrast: "#0000",
+//   dropdown: "#e1e2df",
+//   dropdownDeep: "#eff3e7",
+//   invertedContrast: "#e6ecd9",
+//   input: "#c8d0b8",
+//   inputSecondary: "#d9decf",
+//   primaryDark: "#ff675e",
+//   tertiary: "#cacab8",
+//   text: "#0b1100",
+//   textDisabled: "#999e8e",
+//   textSubtle: "#47522d",
+//   disabled: "#adb49c",
+//   gradients: {
+//     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+//     inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
+//     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
+//     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
+//     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
+//     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
+//     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+//   },
+// };
+
 export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#ffe26c", // "#9A6AFF",
-  background: "#08060B",
+  background: "#000000",
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#27262c",
   backgroundAlt2: "rgba(39, 38, 44, 0.7)",

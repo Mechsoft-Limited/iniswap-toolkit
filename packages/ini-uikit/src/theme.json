@@ -1,0 +1,36 @@
+{
+  "colors": {
+    "background": "#0161C6",
+    "backgroundDisabled": "#90d4cb",
+    "backgroundAlt":  "#091353", 
+    "backgroundAlt2": "#e6e7dc",
+    "cardBorder": "#091353",
+    "contrast": "#621121",
+    "dropdown": "#3D56B2", 
+    "dropdownDeep": "#5C7AEA", 
+    "invertedContrast": "#091353", 
+    "input": "#316B83", 
+    "inputSecondary": "#172774",
+    "tertiary": "#a8ddd3",
+    "text": "#ffffff", 
+    "textDisabled": "grey", 
+    "textSubtle": "#dd6393",
+    "disabled": "black", 
+    "primary": "#79b4b7",
+    "primaryBright": "#45c9c9",
+    "primaryDark": "#00898b",
+    "secondary": "#FBB03B", 
+    "success": "#3E7C17", 
+    "warning": "#e6a12f",
+    "failure": "#FF0075" 
+  },
+  "gradients": {
+    "bubblegum": "linear-gradient(139.73deg, #0161C6 0%, #b7d8dc 100%)",
+    "inverseBubblegum": "linear-gradient(139.73deg, #b7d8dc 0%, #81e5dc 100%)",
+    "cardHeader": "linear-gradient(111.68deg, #0161C6 0%, black 100%)",
+    "blue": "linear-gradient(180deg, #0161C6 0%, #14279B 100%)",
+    "violet": "linear-gradient(180deg, #0161C6 0%, #23a6d8 100%)",
+    "violetAlt": "linear-gradient(180deg, #1bc2ce 0%, #5b90b4 100%)",
+    "gold": "linear-gradient(180deg, #e6c300 0%, #df9b2b 100%)"
+  }
+}

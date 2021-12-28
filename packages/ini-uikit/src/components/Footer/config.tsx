@@ -79,80 +79,45 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/iniswapfinance",
   },
   {
     label: "Telegram",
     icon: "Telegram",
+    href: "https://t.me/iniswap_finance",
     items: [
       {
-        label: "English",
-        href: "https://t.me/pancakeswap",
+        label: "Telegram",
+
+        href: "https://t.me/iniswap_finance",
       },
       {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
-      },
-      {
-        label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/pancakeswap_ru",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
-      },
-      {
-        label: "Español",
-        href: "https://t.me/PancakeswapEs",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/pancakeswapjp",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/pancakeswapfr",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
-      },
-      {
-        label: "Whale Alert",
-        href: "https://t.me/PancakeSwapWhales",
+        label: "Telegram channel",
+
+        href: "https://t.me/iniswap_INI",
       },
     ],
   },
+
   {
     label: "Reddit",
     icon: "Reddit",
-    href: "https://reddit.com/r/pancakeswap",
+    href: "https://reddit.com/r/iniswapfinance",
   },
-  {
-    label: "Instagram",
-    icon: "Instagram",
-    href: "https://instagram.com/pancakeswap_official",
-  },
+  // {
+  //   label: "Instagram",
+  //   icon: "Instagram",
+  //   href: "https://instagram.com/iniswap_official",
+  // },
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/iniswap/",
+  },
+  {
+    label: "Discord",
+    icon: "Discord",
+    href: "https://discord.gg/yKKccBVX9w",
   },
 ];
 

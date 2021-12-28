@@ -1,9 +1,11 @@
 import React from "react";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
+import Logo from "./Logo";
 
 const Icon: React.FC<SvgProps> = (props) => {
-  return (
+  return <Logo {...props} />;
+  /* return (
     <Svg viewBox="0 0 90 90" {...props}>
       <circle cx="45" cy="45" r="45" fill="url(#paint0_linear_pancakeround)" />
       <path
@@ -112,7 +114,7 @@ const Icon: React.FC<SvgProps> = (props) => {
         </linearGradient>
       </defs>
     </Svg>
-  );
+  ); */
 };
 
 export default Icon;
